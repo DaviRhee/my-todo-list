@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-app">
+            <span id="usuario-logado-info"></span>
+            <button id="btn-logout">Sair</button>
+        </div>
+
+        <h1>Lista de Tarefas</h1>
+
+        <div class="input-area">
+            <input type="text" id="input-tarefa" placeholder="Digite o título da tarefa...">
+            <textarea id="input-descricao" placeholder="Adicionar uma descrição (opcional)..." rows="2"></textarea>
+            <div class="date-time-wrapper">
+                <input type="date" id="input-data">
+                <select id="select-hora"></select>
+                <select id="select-minuto"></select>
+            </div>
+            <button id="btn-adicionar">Adicionar</button>
+        </div>
+
+        <ul id="lista-tarefas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

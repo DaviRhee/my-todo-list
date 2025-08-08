@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container auth-container">
+        <h1>Criar uma Conta</h1>
+        <form id="form-cadastro">
+            <div class="form-group">
+                <label for="email-cadastro">E-mail</label>
+                <input type="email" id="email-cadastro" required>
+            </div>
+            <div class="form-group">
+                <label for="email-confirmacao">Confirme seu E-mail</label>
+                <input type="email" id="email-confirmacao" required>
+            </div>
+            <div class="form-group">
+                <label for="senha-cadastro">Senha</label>
+                <input type="password" id="senha-cadastro" required>
+            </div>
+            <div class="form-group">
+                <label for="senha-confirmacao">Confirme sua Senha</label>
+                <input type="password" id="senha-confirmacao" required>
+            </div>
+            <button type="submit" class="auth-button">Cadastrar</button>
+        </form>
+        <p class="auth-link">Já tem uma conta? <a href="login.html">Faça Login</a></p>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
